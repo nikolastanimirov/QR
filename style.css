@@ -1,0 +1,35 @@
+#body {
+  background: #379683 !important;
+}
+
+#component {
+  width: 500px;
+  height: 650px;
+  border: 3px solid red;
+  background: #8ee4af;
+  border-color: #5cdb95;
+  border-bottom-left-radius: 2em;
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-top-right-radius: 2em;
+  margin: 100px auto;
+}
+.title {
+  color: #edf5e1;
+  margin: 15px 80px;
+}
+.line {
+  width: 350px;
+  height: 1px;
+  background-color: #fff;
+}
+.QR-code {
+  margin: 35px 80px;
+}
+.QR-code img {
+  width: 350px;
+}
+#btn {
+  float: right;
+  margin: 20px 65px;
+}
