@@ -28,15 +28,18 @@
         <hr class="line" />
       </div>
       <div class="QR-code">
-        <img id="QR" src="qrcode.png" />
+        <!--<img id="QR" src="qrcode.png" />-->
+        <div id="text-field"></div>
       </div>
       <p id="demo"></p>
       <button type="button" id="btn" class="btn btn-success">Reveal</button>
     </div>
   </body>
   <script>
+    document.getElementById("text-field").innerHTML =
+      Math.floor(Math.random() * 1000 + 1) + "Under";
     var button = document.getElementById("btn"),
-      event = document.getElementById("QR");
+      event = document.getElementById("text-field");
     event.style.display = "none";
     button.addEventListener(
       "click",
